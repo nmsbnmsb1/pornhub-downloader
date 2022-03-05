@@ -1,0 +1,22 @@
+{
+  "name": "pornhub-downloader",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "puppeteer-core": "^13.4.1",
+    "me-actions": "git+https://github.com/nmsbnmsb1/me-actions.git",
+    "me-logger": "git+https://github.com/nmsbnmsb1/me-logger.git",
+    "http-proxy-agent": "^5.0.0",
+    "https-proxy-agent": "^5.0.0",
+    "socks-proxy-agent": "^6.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.26",
+    "@types/puppeteer-core": "^5.4.0",
+    "typescript": "^4.6.2"
+  }
+}
